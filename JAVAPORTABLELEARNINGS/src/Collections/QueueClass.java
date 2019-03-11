@@ -42,7 +42,7 @@ public class QueueClass {
         
         for(int i=0;i<7;i++){
             Integer in = b.poll();
-            System.out.println("Обрабатываем Integer:"+in);
+            System.out.println(" Integer:"+in);
         }
 			
 		while (!b.isEmpty()){

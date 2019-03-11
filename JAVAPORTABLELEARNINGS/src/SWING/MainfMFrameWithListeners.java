@@ -84,8 +84,8 @@ public class MainfMFrameWithListeners extends JFrame {
 				// TODO Auto-generated method stub
 				System.out.println("Button click");
 				textArea.setText(textField.getText());
-				textArea.setBackground(Color.YELLOW);
-				textArea.setBackground(new Color(255,55,2));
+				textArea.setBackground(Color.BLUE);
+				//textArea.setBackground(new Color(105,1,2));
 				System.out.println(e.getSource());
 				model.addElement("CC");
 				

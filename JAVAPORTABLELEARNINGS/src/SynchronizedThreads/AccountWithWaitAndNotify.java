@@ -11,7 +11,7 @@ public class AccountWithWaitAndNotify {
 		
 		System.out.println("Calling waitAndWithDraw()...");
 		
-		account.waitAndWithdraw(50_000_000);
+		account.waitAndWithdraw(1000);
 		
 		System.out.println("waitAndWithDraw() finished");
 }
@@ -36,7 +36,7 @@ public class AccountWithWaitAndNotify {
 		
 		@Override
 		public void run(){
-			for(int i = 0 ; i < 50_000_000; ++i){
+			for(int i = 0 ; i < 1000; ++i){
 				account.deposit(1);
 			}
 		}
