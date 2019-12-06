@@ -27,6 +27,8 @@ public class QueueClass {
 		System.out.println(a.poll());
 		a.add(1);
 		System.out.println(a.poll());
+		
+		
 			
 		while (!a.isEmpty()){
 			a.peek();;
@@ -36,9 +38,15 @@ public class QueueClass {
 		Queue<Integer> b = new PriorityQueue<Integer>(5);
 		Random rand = new Random();
 		
+		
+		
         for(int i=0; i<7; i++){
         	b.add(new Integer(rand.nextInt(100)));
         }
+        
+        
+        b.forEach(System.out::println);
+        
         
         for(int i=0;i<7;i++){
             Integer in = b.poll();
@@ -49,5 +57,7 @@ public class QueueClass {
 			b.peek();
 		}
 		System.out.println(b.peek());
+		
+		
 	}
 }
