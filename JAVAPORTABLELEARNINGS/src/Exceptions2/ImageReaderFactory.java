@@ -22,7 +22,7 @@ public class ImageReaderFactory extends IllegalArgumentExceptionClass implements
 				IllegalArgumentExceptionClass a1 = new IllegalArgumentExceptionClass();
 			}
 		} catch (IllegalArgumentException a1) {
-			/* System.out.println(a1.getMessage()); */
+			 System.out.println(a1.getMessage()); 
 			throw new IllegalArgumentException("Exception 2 test");
 		}
 		return a;
